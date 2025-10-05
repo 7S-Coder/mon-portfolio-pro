@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
 import PharesProjects from '../components/Phares-projects';
+import Approach from '../components/Approach';
 
 function Home() {
 
@@ -13,7 +14,8 @@ function Home() {
             <main>
                 <Hero />
                 <Skills />
-                < PharesProjects />
+                <PharesProjects />
+                <Approach />
             </main>
         </>
     )
