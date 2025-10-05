@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Skills from '../components/Skills';
 import PharesProjects from '../components/Phares-projects';
 import Approach from '../components/Approach';
+import Contact from '../components/Contact';
 
 function Home() {
 
@@ -16,7 +17,9 @@ function Home() {
                 <Skills />
                 <PharesProjects />
                 <Approach />
+                <Contact />
             </main>
+
         </>
     )
 }
