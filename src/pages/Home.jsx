@@ -7,6 +7,7 @@ import PharesProjects from '../components/Phares-projects';
 import Approach from '../components/Approach';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Certifications from '../components/Certification';
 
 function Home() {
 
@@ -17,6 +18,7 @@ function Home() {
                 <Hero />
                 <Skills />
                 <PharesProjects />
+                < Certifications />
                 <Approach />
                 <Contact />
                 <Footer />

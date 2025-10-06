@@ -1,0 +1,28 @@
+{
+    "certifications": [
+        {
+            "Development web": [
+                {
+                    "name": "CEF - Développeur web et web mobile",
+                    "date": "2025"
+                },
+                {
+                    "name": "OpenClassrooms - Développeur web et web mobile",
+                    "date": "2023"
+                },
+                {
+                    "name": "INFREP - Développeur web et Web Mobile",
+                    "date": "2020"  
+                }
+            ]
+        },
+        {
+            "Test et qualité": [
+                {
+                    "name": "ISTQB V4 Fundations",
+                    "date": "2024"
+                }
+            ]
+        }
+    ]
+}

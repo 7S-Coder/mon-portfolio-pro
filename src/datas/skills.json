@@ -1,0 +1,190 @@
+{
+    "skills": [
+    {
+        "Front end": [
+            {
+                "id": 1,
+                "name": "HTML",
+                "level": "Expert"
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "level": "Expert"
+            },
+            {
+                "id": 3,
+                "name": "JavaScript",
+                "level": "Avancé"
+            },
+            {
+                "id": 4,
+                "name": "React",
+                "level": "Avancé"
+            },
+            {
+                "id": 5,
+                "name": "Angular",
+                "level": "Intermédiaire"
+            }
+        ]
+    },
+    {
+        "Back end": [
+            {
+                "id": 1,
+                "name": "Node.js",
+                "level": "Avancé"
+            },
+            {
+                "id": 2,
+                "name": "Express",
+                "level": "Avancé"
+            },
+            {
+                "id": 3,
+                "name": "MongoDB",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 4,
+                "name": "Firebase",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 5,
+                "name": "PostgreSQL",
+                "level": "Intermédiaire"
+            }
+        ]
+    }, 
+    { 
+        "Dev Ops": [
+        {
+            "id": 1,
+            "name": "Git",
+            "level": "Intérmédiaire"
+        },
+        {
+            "id": 2,
+            "name": "Docker",
+            "level": "Debutant"
+        },
+        {
+            "id": 3,
+            "name": "Nginx",
+            "level": "Intermédiaire"
+        },
+        {
+            "id": 4,
+            "name": "Ubuntu",
+            "level": "Debutant"
+        },
+        {
+            "id": 5,
+            "name": "VPS",
+            "level": "Intermédiaire"
+        }
+    ] 
+},
+{
+    "Test et qualité": {
+        "ISTQB": [
+            {
+                "id": 1,
+                "name": "Jest",
+                "level": "Débutant"
+            },
+            {
+                "id": 2,
+                "name": "Cypress",
+                "level": "Débutant"
+            },
+            {
+                "id": 3,
+                "name": "ESLint",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 4,
+                "name": "Prettier",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 5,
+                "name": "Postman",
+                "level": "Intermédiaire"
+            }
+        ],
+        "Autres": [
+            {
+                "id": 1,
+                "name": "Méthodologies Agile",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 2,
+                "name": "Scrum",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 3,
+                "name": "Kanban",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 4,
+                "name": "Gestion de projet",
+                "level": "Intermédiaire"
+            },
+            {
+                "id": 5,
+                "name": "Communication",
+                "level": "Débutant"
+            }
+        ]
+    }
+},
+    {
+        "Projets et management": {
+            "Dontono, Jeezy-Tv CheckQA": [
+                {
+                    "id": 1,
+                    "name": "Vision Produits",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 2,
+                    "name": "Gestion d'équipe",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 3,
+                    "name": "Planification",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 4,
+                    "name": "Suivi de projet",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 5,
+                    "name": "Résolution de problèmes",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 6,
+                    "name": "Prise de décision",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 7,
+                    "name": "Veille technologique",
+                    "level": "Intermédiaire"
+                }
+            ]
+        }
+    }
+]
+}

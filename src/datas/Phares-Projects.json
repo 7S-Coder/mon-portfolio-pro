@@ -1,0 +1,36 @@
+{
+    "phares-projects":   [
+        {
+            "id": 1,
+            "name": "Jeezy-TV.com",
+            "description": "Plateforme de streaming vidéo avec une interface utilisateur moderne.",
+            "technologies": ["React.js", "Node.js", "Firebase", "Ubuntu", "Nginx", "VPS", "SCSS"],
+            "link": "https://jeezy-tv.com",
+            "image": "jeezy-tv.png"
+        },
+        {
+            "id": 2,
+            "name": "CheckQA.fr",
+            "description": "Outil de gestion de la qualité logicielle pour les équipes de développement.",
+            "technologies": ["React.js", "SCSS", "Firebase"],
+            "link": "https://checkqa.fr",
+            "image": "checkqa.png"
+        },
+        {
+            "id": 3,
+            "name": "Studio.fr",
+            "description": "Application de création et d'édition de contenu multimédia en ligne.",
+            "technologies": ["Angular", "Firebase", "TailwindCSS"],
+            "link": "https://studio.dontono.fr",
+            "image": "studio.png"
+        },
+        {
+            "id": 4,
+            "name": "Kasa",
+            "description": "Site de réservation (tp avec OpenClassrooms).",
+            "technologies": ["React.js", "SCSS"],
+            "link": "",
+            "image": "Kasa.png"
+        }
+    ]
+}
