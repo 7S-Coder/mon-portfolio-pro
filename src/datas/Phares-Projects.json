@@ -30,7 +30,7 @@
             "description": "Site de réservation (tp avec OpenClassrooms).",
             "technologies": ["React.js", "SCSS"],
             "link": "",
-            "image": "images/Kasa.png"
+            "image": "images/kasa.png"
         }
     ]
 }
