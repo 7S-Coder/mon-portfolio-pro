@@ -26,7 +26,7 @@ function PharesProjects() {
                             <div className="relative h-56 overflow-hidden">
                                 {project.image ? (
                                     <img 
-                                        src={`src/assets/${project.image}`} 
+                                        src={`/${project.image}`} 
                                         alt={project.name}
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />
