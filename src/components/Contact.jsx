@@ -35,7 +35,7 @@ function Contact() {
     };
 
     return (
-        <section className="py-20 px-6 bg-[#0D1117]" id="contact">
+        <section className="reveal py-20 px-6 bg-[#0D1117]" id="contact">
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-bold text-[#E6EDF3] mb-6 font-satoshi">
                     Contactez-moi

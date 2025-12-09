@@ -18,7 +18,7 @@ function Home() {
                 <Hero />
                 <Skills />
                 <PharesProjects />
-                < Certifications />
+                {/* < Certifications /> */}
                 <Approach />
                 <Contact />
                 <Footer />

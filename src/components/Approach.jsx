@@ -1,6 +1,6 @@
 function Approach() {
     return (
-        <section className="py-20 px-6 bg-[#161B22]" id="approach">
+        <section className="reveal py-20 px-6 bg-[#161B22]" id="approach">
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-bold text-[#E6EDF3] mb-6 font-satoshi">
                     Mon approche

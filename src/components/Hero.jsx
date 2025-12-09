@@ -2,7 +2,7 @@ import '../App.css';
 
 function Hero() {
   return (
-    <section className="h-screen min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-800 to-gray-900 text-gray-200">
+    <section className="reveal h-screen min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-800 to-gray-900 text-gray-200">
       <h2 className="text-4xl font-bold mb-4 font-satoshi">Bienvenue sur mon portfolio</h2>
       <p className="text-lg text-center max-w-2xl font-inter">
         <em>Je conçois, teste et déploie des applications web performantes et fiables.</em>

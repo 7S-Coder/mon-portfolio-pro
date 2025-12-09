@@ -5,7 +5,7 @@ function PharesProjects() {
     const projects = projectsData['phares-projects'];
 
     return (
-        <section className="py-20 px-6 bg-[#0D1117]" id="projects">
+        <section className="reveal py-20 px-6 bg-[#0D1117]" id="projects">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-[#E6EDF3] mb-4 font-inter">
@@ -20,7 +20,7 @@ function PharesProjects() {
                     {projects.map((project) => (
                         <div 
                             key={project.id} 
-                            className="group bg-gradient-to-br from-[#161B22] to-[#0D1117] rounded-2xl border border-[#21262D] overflow-hidden hover:border-[#00BFA6] transition-all duration-500 hover:shadow-2xl hover:shadow-[#00BFA6]/10 hover:scale-[1.02]"
+                            className="reveal group bg-gradient-to-br from-[#161B22] to-[#0D1117] rounded-2xl border border-[#21262D] overflow-hidden hover:border-[#00BFA6] transition-all duration-500 hover:shadow-2xl hover:shadow-[#00BFA6]/10 hover:scale-[1.02]"
                         >
                             {/* Image du projet avec overlay */}
                             <div className="relative h-56 overflow-hidden">
@@ -39,12 +39,7 @@ function PharesProjects() {
                                 {/* Overlay gradient */}
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0D1117]/90 via-transparent to-transparent"></div>
                                 
-                                {/* Badge premium */}
-                                <div className="absolute top-4 left-4">
-                                    <div className="bg-[#00BFA6]/20 backdrop-blur-sm border border-[#00BFA6]/30 px-3 py-1 rounded-full">
-                                        <span className="text-[#00BFA6] text-sm font-medium">✨ Projet</span>
-                                    </div>
-                                </div>
+                                
                             </div>
                             
                             {/* Contenu de la carte */}
@@ -72,7 +67,7 @@ function PharesProjects() {
                                         {project.technologies.map((tech, index) => (
                                             <span 
                                                 key={index}
-                                                className="bg-[#21262D] text-[#E6EDF3] px-3 py-1 rounded-full text-sm border border-[#30363D] hover:border-[#00BFA6]/50 hover:bg-[#00BFA6]/10 transition-all duration-300"
+                                                className="reveal inline-block bg-[#21262D] text-[#E6EDF3] px-3 py-1 rounded-full text-sm border border-[#30363D] hover:border-[#00BFA6]/50 hover:bg-[#00BFA6]/10 transition-all duration-300"
                                             >
                                                 {tech}
                                             </span>
