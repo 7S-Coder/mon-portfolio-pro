@@ -23,8 +23,8 @@ function initRevealOnScroll() {
           // Apply stagger to direct children using CSS variable `--reveal-delay`
           const children = entry.target.querySelectorAll(':scope > *');
           children.forEach((child, i) => {
-            // 100ms step; adjust multiplier if you want faster/slower stagger
-            const delay = i * 100;
+            // 60ms step for a denser, faster stagger
+            const delay = i * 60;
             child.style.setProperty('--reveal-delay', `${delay}ms`);
           });
 

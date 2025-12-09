@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import skillsData from '../datas/skills.json';
 
 function Skills() {
-    const [skills, setSkills] = useState([]);
+    // Initialize immediately with the data to avoid empty first render
+    const [skills, setSkills] = useState(skillsData.skills || []);
 
     useEffect(() => {
-        setSkills(skillsData.skills);
+        // keep this effect in case the data source changes later
+        if (!skills || skills.length === 0) setSkills(skillsData.skills || []);
     }, []);
 
     // Fonction pour organiser les compétences selon la maquette
@@ -74,7 +76,7 @@ function Skills() {
                             <div key={index} className="mb-6">
                                 <h4 className="text-[#00BFA6] font-medium mb-3">{category.name}</h4>
                                 <ul className="space-y-2">
-                                    {category.skills.map((skill) => (
+                                        {category.skills.map((skill) => (
                                         <li key={skill.id} className="reveal text-[#5B5B5B] text-sm flex items-center hover:text-[#E6EDF3] transition-colors">
                                             <span className="w-1 h-1 bg-[#00BFA6] rounded-full mr-3"></span>
                                             {skill.name}

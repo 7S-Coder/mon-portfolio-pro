@@ -2,10 +2,13 @@ import { useState, useEffect } from 'react';
 import certificationsData from '../datas/Certifications.json';
 
 function Certifications() {
-    const [certifications, setCertifications] = useState([]);
+    // Initialize immediately from data to avoid empty first render
+    const [certifications, setCertifications] = useState(certificationsData.certifications || []);
 
     useEffect(() => {
-        setCertifications(certificationsData.certifications);
+        if (!certifications || certifications.length === 0) {
+            setCertifications(certificationsData.certifications || []);
+        }
     }, []);
 
     return (
