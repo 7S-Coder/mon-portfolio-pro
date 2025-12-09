@@ -20,8 +20,8 @@ function Hero() {
         <button
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/CV_Test.pdf"; // Chemin vers votre CV dans le dossier public
-            link.download = "CV_Test.pdf"; // Nom du fichier téléchargé
+            link.href = "/CV_Testeur.pdf"; // Chemin vers votre CV dans le dossier public
+            link.download = "CV_Testeur.pdf"; // Nom du fichier téléchargé
             link.click();
           }}
           className="flex-1 bg-[#21262D]/50 backdrop-blur-sm border border-[#30363D] hover:border-[#00BFA6]/50 text-[#E6EDF3] hover:text-[#00BFA6] px-5 py-3 rounded-xl transition-all duration-300 flex items-center gap-2 group/btn"
