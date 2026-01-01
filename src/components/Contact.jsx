@@ -103,14 +103,14 @@ function Contact() {
                 </div>
 
                 {/* Bouton Calendly */}
-                <a 
+                {/* <a 
                     href="https://calendly.com/siete7am-contact/30min" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-block bg-[#00BFA6] hover:bg-[#00D8A1] text-[#0D1117] px-5 py-3 rounded-lg font-medium transition-all duration-300"
                 >
                     Prendre rendez-vous
-                </a>
+                </a> */}
             </div>
         </section>
     );
