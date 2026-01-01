@@ -28,9 +28,19 @@
             "id": 4,
             "name": "Kasa",
             "description": "Site de réservation (tp avec OpenClassrooms).",
-            "technologies": ["React.js", "SCSS"],
+            "technologies": ["React.js", "javascript", "SCSS"],
             "link": "",
+            "github": "",
             "image": "images/kasa.png"
+        },
+        {
+            "id": 5,
+            "name": "Arena Quest",
+            "description": "Arena Quest est un RPG d'arène / donjon développé en JavaScript",
+            "technologies": ["HTML", "CSS", "Next.js", "JavaScript", "Typescript"],
+            "link": "https://mini-rpg-arana-quest-upgrade.vercel.app/",
+            "github": "https://github.com/7S-Coder/Mini-RPG---Arana-Quest-Upgrade",
+            "image": "images/arena-quest.png"
         }
     ]
 }
