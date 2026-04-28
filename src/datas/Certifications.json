@@ -1,21 +1,18 @@
 {
     "certifications": [
         {
-            "Développement web": [
+            "Dev": [
                 {
-                    "name": "CEF - Développeur web et web mobile",
-                    "date": "2025"
-                },
-                {
-                    "name": "OpenClassrooms - Développeur web et web mobile",
+                    "name": "OpenClassrooms - Développeur d'application web et mobile",
                     "date": "2023"
                 },
                 {
                     "name": "INFREP - Développeur web et Web Mobile",
-                    "date": "2020"  
+                    "date": "2020"
                 }
             ]
         },
+
         {
             "Test et qualité": [
                 {

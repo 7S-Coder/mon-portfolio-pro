@@ -5,10 +5,11 @@ function Hero() {
     <section className="reveal h-screen min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-800 to-gray-900 text-gray-200">
       <h2 className="text-4xl font-bold mb-4 font-satoshi">Bienvenue sur mon portfolio</h2>
       <p className="text-lg text-center max-w-2xl font-inter">
-        <em>Je conçois, teste et déploie des applications web performantes et fiables.</em>
+        <em>Testeur logiciel certifié ISTQB spécialisé en qualité, automatisation et fiabilité des applications web.</em>
       </p>
       <p className="text-lg text-center max-w-2xl mt-4 font-inter">
-        Développeur Full Stack, Testeur Certifié ISTQB et passionné par l’automatisation, le développement web et la qualité logicielle.
+        Ancien développeur reconverti en testeur logiciel, je combine
+         vision technique et méthodologie ISTQB pour garantir des applications fiables, performantes et prêtes pour la production.
       </p>
       <div className="btn-gallery mt-6 flex gap-4">
         <button 

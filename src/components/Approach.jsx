@@ -6,7 +6,15 @@ function Approach() {
                     Mon approche
                 </h2>
                 <p className="text-lg text-[#5B5B5B] max-w-2xl mx-auto font-inter">
-                    J’aime créer des solutions utiles, testées, et durables. Je combine rigueur du testeur, créativité du dev, et vision produit du fondateur.
+                 Mon parcours en développement m’a naturellement amené à tester les applications que je créais. J’y ai développé une forte sensibilité aux bugs, à la logique et à l’expérience utilisateur.
+ 
+ 
+ Aujourd’hui, en tant que testeur certifié ISTQB, j’applique une méthodologie rigoureuse pour identifier, analyser et prioriser les anomalies.
+ 
+ Mon objectif est simple : garantir des produits fiables, fluides et sans friction pour l’utilisateur final.
+ 
+ Je combine vision technique et approche qualité pour intervenir efficacement dès les premières phases d’un projet.
+
                 </p>
             </div>
         </section>

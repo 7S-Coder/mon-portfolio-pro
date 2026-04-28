@@ -2,45 +2,21 @@
     "phares-projects":   [
         {
             "id": 1,
-            "name": "Jeezy-TV.com",
-            "description": "Plateforme de streaming vidéo avec une interface utilisateur moderne.",
-            "technologies": ["React.js", "Node.js", "Firebase", "Ubuntu", "Nginx", "VPS", "SCSS"],
-            "link": "https://jeezy-tv.com",
-            "image": "images/jeezy-tv.png"
-        },
-        {
-            "id": 2,
-            "name": "CheckQA.fr",
-            "description": "Outil de gestion de la qualité logicielle pour les équipes de développement.",
-            "technologies": ["React.js", "SCSS", "Firebase"],
-            "link": "https://checkqa.fr",
-            "image": "images/checkqa.png"
-        },
-        {
-            "id": 3,
-            "name": "Studio.fr",
-            "description": "Application de création et d'édition de contenu multimédia en ligne.",
-            "technologies": ["Angular", "Firebase", "TailwindCSS"],
-            "link": "https://studio.dontono.fr",
-            "image": "images/studio.png"
-        },
-        {
-            "id": 4,
-            "name": "Kasa",
-            "description": "Site de réservation (tp avec OpenClassrooms).",
-            "technologies": ["React.js", "javascript", "SCSS"],
-            "link": "",
-            "github": "",
-            "image": "images/kasa.png"
-        },
-        {
-            "id": 5,
-            "name": "Arena Quest",
-            "description": "Arena Quest est un RPG d'arène / donjon développé en JavaScript",
-            "technologies": ["HTML", "CSS", "Next.js", "JavaScript", "Typescript"],
+            "name": "Arena Quest v0.40",
             "link": "https://mini-rpg-arana-quest-upgrade.vercel.app/",
-            "github": "https://github.com/7S-Coder/Mini-RPG---Arana-Quest-Upgrade",
-            "image": "images/arena-quest.png"
+            "objective": "Tester la stabilité et l'équilibrage du jeu",
+            "deliverables": [
+                "Plan de test",
+                "Cas de test",
+                "Rapport de bugs",
+                "Bilan de test"
+            ],
+            "tools": ["Click Up", "Notion", "Squash TM", "Cypress"],
+            "results": {
+                "bugsDetected": "30 %",
+                "successRate": "70 %",
+                "criticalAnomalies": "2"
+            }
         }
     ]
 }

@@ -1,190 +1,159 @@
 {
     "skills": [
-    {
-        "Front end": [
-            {
-                "id": 1,
-                "name": "HTML",
-                "level": "Expert"
-            },
-            {
-                "id": 2,
-                "name": "CSS",
-                "level": "Expert"
-            },
-            {
-                "id": 3,
-                "name": "JavaScript",
-                "level": "Avancé"
-            },
-            {
-                "id": 4,
-                "name": "React",
-                "level": "Avancé"
-            },
-            {
-                "id": 5,
-                "name": "Angular",
-                "level": "Intermédiaire"
-            }
-        ]
-    },
-    {
-        "Back end": [
-            {
-                "id": 1,
-                "name": "Node.js",
-                "level": "Avancé"
-            },
-            {
-                "id": 2,
-                "name": "Express",
-                "level": "Avancé"
-            },
-            {
-                "id": 3,
-                "name": "MongoDB",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 4,
-                "name": "Firebase",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 5,
-                "name": "PostgreSQL",
-                "level": "Intermédiaire"
-            }
-        ]
-    }, 
-    { 
-        "Dev Ops": [
         {
-            "id": 1,
-            "name": "Git",
-            "level": "Intérmédiaire"
-        },
-        {
-            "id": 2,
-            "name": "Docker",
-            "level": "Debutant"
-        },
-        {
-            "id": 3,
-            "name": "Nginx",
-            "level": "Intermédiaire"
-        },
-        {
-            "id": 4,
-            "name": "Ubuntu",
-            "level": "Debutant"
-        },
-        {
-            "id": 5,
-            "name": "VPS",
-            "level": "Intermédiaire"
-        }
-    ] 
-},
-{
-    "Test et qualité": {
-        "ISTQB": [
-            {
-                "id": 1,
-                "name": "Jest",
-                "level": "Débutant"
-            },
-            {
-                "id": 2,
-                "name": "Cypress",
-                "level": "Débutant"
-            },
-            {
-                "id": 3,
-                "name": "ESLint",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 4,
-                "name": "Prettier",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 5,
-                "name": "Postman",
-                "level": "Intermédiaire"
-            }
-        ],
-        "Autres": [
-            {
-                "id": 1,
-                "name": "Méthodologies Agile",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 2,
-                "name": "Scrum",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 3,
-                "name": "Kanban",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 4,
-                "name": "Gestion de projet",
-                "level": "Intermédiaire"
-            },
-            {
-                "id": 5,
-                "name": "Communication",
-                "level": "Débutant"
-            }
-        ]
-    }
-},
-    {
-        "Projets et management": {
-            "Dontono, Jeezy-Tv CheckQA": [
+            "Front end": [
                 {
                     "id": 1,
-                    "name": "Vision Produits",
+                    "name": "React",
                     "level": "Intermédiaire"
                 },
                 {
                     "id": 2,
-                    "name": "Gestion d'équipe",
+                    "name": "JavaScript",
                     "level": "Intermédiaire"
                 },
                 {
                     "id": 3,
-                    "name": "Planification",
+                    "name": "Tailwind CSS",
                     "level": "Intermédiaire"
                 },
                 {
                     "id": 4,
-                    "name": "Suivi de projet",
+                    "name": "HTML/CSS",
+                    "level": "Avancé"
+                }
+            ],
+            "Back end": [
+                {
+                    "id": 1,
+                    "name": "Node.js",
+                    "level": "Débutant"
+                },
+                {
+                    "id": 2,
+                    "name": "Python",
                     "level": "Intermédiaire"
                 },
                 {
-                    "id": 5,
-                    "name": "Résolution de problèmes",
+                    "id": 3,
+                    "name": "SQL",
                     "level": "Intermédiaire"
                 },
                 {
-                    "id": 6,
-                    "name": "Prise de décision",
-                    "level": "Intermédiaire"
-                },
-                {
-                    "id": 7,
-                    "name": "Veille technologique",
+                    "id": 4,
+                    "name": "API REST",
                     "level": "Intermédiaire"
                 }
+            ],
+            "Dev Ops": [
+                {
+                    "id": 1,
+                    "name": "Git",
+                    "level": "Intermédiaire"
+                },
+                {
+                    "id": 2,
+                    "name": "Docker",
+                    "level": "Débutant"
+                },
+                {
+                    "id": 3,
+                    "name": "CI/CD",
+                    "level": "Débutant"
+                }
             ]
+        },
+        {
+            "ISTQB": {
+                "Test et qualité": [
+                    {
+                        "id": 1,
+                        "name": "Tests fonctionnels",
+                        "level": "Débutant"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Tests exploratoires",
+                        "level": "Débutant"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Rédaction de cas de test",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Analyse des anomalies",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Plans de test",
+                        "level": "Intermédiaire"
+                    }
+                ],
+                "Automatisation": [
+                    {
+                        "id": 1,
+                        "name": "Cypress",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Tests end-to-end (E2E)",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Tests UI automatisés",
+                        "level": "Intermédiaire"
+                    }
+                ],
+                "Outils": [
+                    {
+                        "id": 1,
+                        "name": "Jira",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Squash TM",
+                        "level": "Débutant"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Postman",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Git",
+                        "level": "Intermédiaire"
+                    }
+                ],
+                "Méthodologies": [
+                    {
+                        "id": 1,
+                        "name": "ISTQB Foundation",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Cycle de vie du test",
+                        "level": "Intermédiaire"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Gestion des risques",
+                        "level": "Débutant"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Stratégie de test",
+                        "level": "Intermédiaire"
+                    }
+                ]
+            }
         }
-    }
-]
+    ]
 }
